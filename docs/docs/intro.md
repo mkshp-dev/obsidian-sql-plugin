@@ -22,3 +22,7 @@ slug: /intro
 2. Open **Settings → SQL Plugin** and paste your Supabase URL and Anon Key.
 3. Press `Ctrl/Cmd+P` → **Open SQL Query Runner**.
 4. Type your SQL and press **Run Query** or `Ctrl/Cmd+Enter`.
+
+:::tip
+Use `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (macOS) inside the query box as a keyboard shortcut to run the query without reaching for the mouse.
+:::
