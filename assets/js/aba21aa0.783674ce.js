@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkobsidian_sql_plugin_docs=globalThis.webpackChunkobsidian_sql_plugin_docs||[]).push([[742],{7093(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
