@@ -1,0 +1,83 @@
+/* ── SQL Query Modal ── */
+.sql-query-modal .modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.sql-textarea {
+  width: 100%;
+  min-height: 120px;
+  font-family: var(--font-monospace);
+  font-size: 14px;
+  padding: 8px;
+  resize: vertical;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  background: var(--background-primary);
+  color: var(--text-normal);
+}
+
+.sql-run-btn {
+  align-self: flex-end;
+}
+
+/* ── Results ── */
+.sql-results {
+  margin-top: 8px;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.sql-running {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.sql-error {
+  color: var(--text-error);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ── Table ── */
+.sql-table-wrapper {
+  overflow-x: auto;
+}
+
+.sql-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+
+.sql-table th,
+.sql-table td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 4px 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.sql-table th {
+  background: var(--background-secondary);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.sql-table tr:nth-child(even) td {
+  background: var(--background-secondary-alt);
+}
+
+.sql-null {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ── Settings Warning ── */
+.sql-settings-warning {
+  color: var(--text-muted);
+  font-size: 12px;
+}

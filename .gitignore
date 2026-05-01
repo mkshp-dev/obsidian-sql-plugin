@@ -1,0 +1,16 @@
+# Default ignored directories
+node_modules/
+
+# Build outputs
+main.js
+main.js.map
+
+# Obsidian data (contains credentials – never commit)
+data.json
+
+# Misc
+.DS_Store
+dist/
+.docusaurus/
+docs/node_modules/
+docs/build/

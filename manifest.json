@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-sql-plugin",
+  "name": "SQL Query Runner",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Run SQL queries on remote databases (Supabase) directly from Obsidian.",
+  "author": "mkshp-dev",
+  "authorUrl": "https://github.com/mkshp-dev",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}
