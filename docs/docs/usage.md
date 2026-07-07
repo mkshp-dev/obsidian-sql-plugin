@@ -18,6 +18,10 @@ Open SQL Query Runner
 2. Click **Run Query** or press `Ctrl+Enter` / `Cmd+Enter`.
 3. Results appear as a scrollable table below.
 
+:::info
+Large result sets are scrollable — the table header stays sticky so you always see column names.
+:::
+
 ### Example queries
 
 ```sql
