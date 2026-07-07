@@ -1,9 +1,9 @@
-# JulesOps kit version: v0.3.0
+# JulesOps kit version: v0.3.1
 julesops:
   enabled: true
 
   repository:
-    base_branch: Dev
+    base_branch: main
 
   queue:
     queue_label: jules-queue
