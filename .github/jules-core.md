@@ -1,4 +1,4 @@
-<!-- JulesOps kit version: v0.3.0 -->
+<!-- JulesOps kit version: v0.3.1 -->
 # JulesOps core instructions
 
 This file contains the generic orchestration rules that Jules should follow in any repository managed by JulesOps.

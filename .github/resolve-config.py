@@ -1,4 +1,4 @@
-# JulesOps kit version: v0.3.0
+# JulesOps kit version: v0.3.1
 import os
 
 CONFIG_PATH = ".github/julesops.yml"
